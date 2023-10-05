@@ -1,3 +1,3 @@
-work=float(input("¿Cuántas horas trabajas?"))
-coste=float(input("A cuánto te pagan la hora?"))
-print("paga que corresponde",work*coste,"€")
+n=int(input("Introduce un número entero positivo"))
+calcular=n*n+1/2
+print("suma de los  primeros enteros positivos"+n+calcular)
