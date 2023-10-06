@@ -1,0 +1,10 @@
+inversión = float(input("Introduce tu inversión principal "))
+interés = 0.04
+ahorro1 = inversión * (1 + interés)
+print("Balance en el primer año:" , (round(ahorro1, 2)))
+ahorro2 = ahorro1 * (1 + interés)
+print("Balance en el segundo año:" , (round(ahorro2, 2)))
+ahorro3 = ahorro2 * (1 + interés)
+print("Balance en el tercer año:" , (round(ahorro3, 2)))
+ahorrototal = (round(ahorro1 + ahorro2 + ahorro3 , 2))
+print ("Balance final" , ahorrototal)
