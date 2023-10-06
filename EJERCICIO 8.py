@@ -1,0 +1,5 @@
+n = input("Introduce un número entero")
+m = input("Introduce un segundo número entero")
+división = int(n)//int(m)
+resto = int(n)%int(m)
+print (n , "entre" , m , "da un cociente" ,  división , "y un resto de" , resto)
